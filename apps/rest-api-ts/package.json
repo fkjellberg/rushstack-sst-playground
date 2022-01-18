@@ -1,12 +1,13 @@
 {
   "name": "rest-api-ts",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "test": "sst test",
     "start": "sst start",
     "build": "sst build",
     "deploy": "sst deploy",
+    "diff": "sst diff",
     "remove": "sst remove"
   },
   "eslintConfig": {
