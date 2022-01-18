@@ -457,5 +457,9 @@
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
     // }
+    {
+      "packageName": "rest-api-ts",
+      "projectFolder": "apps/rest-api-ts"
+    }
   ]
 }

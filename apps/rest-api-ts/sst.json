@@ -1,0 +1,5 @@
+{
+  "name": "rest-api-ts",
+  "region": "eu-north-1",
+  "main": "stacks/index.ts"
+}
