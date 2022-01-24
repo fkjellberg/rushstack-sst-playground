@@ -4,6 +4,7 @@ specifiers:
   '@aws-sdk/signature-v4-crt': 3.47.0
   '@babel/core': ^7.12.10
   '@rush-temp/rest-api-ts': file:./projects/rest-api-ts.tgz
+  '@serverless-stack/aws-lambda-ric': 2.0.10
   '@serverless-stack/cli': 0.60.4
   '@serverless-stack/resources': 0.60.4
   '@tsconfig/node14': ^1.0.1
@@ -21,6 +22,7 @@ dependencies:
   '@aws-sdk/signature-v4-crt': 3.47.0
   '@babel/core': 7.16.7
   '@rush-temp/rest-api-ts': file:projects/rest-api-ts.tgz
+  '@serverless-stack/aws-lambda-ric': 2.0.10
   '@serverless-stack/cli': 0.60.4_904370689b126c490a163bd99279f6a3
   '@serverless-stack/resources': 0.60.4_4759edfa38fba70ea8f27dc9054d15ba
   '@tsconfig/node14': 1.0.1
@@ -11216,12 +11218,13 @@ packages:
     dev: false
 
   file:projects/rest-api-ts.tgz:
-    resolution: {integrity: sha512-HiMvPuzRSo6BFDdsXxe/u4J2K5DFSpdKpmyEQwFyfvfuSMCjVXgJJljUCGwp0SDrGCYPrNWDXoZvbijgapnn+Q==, tarball: file:projects/rest-api-ts.tgz}
+    resolution: {integrity: sha512-XPGNZiXaLuPUaIIDVwfmzua4nHtG8fvTmWa4zrpVEgoKY9zv4rI4cA+3aGEl+d3YFGEwXEfo3rqnSg5N76y16Q==, tarball: file:projects/rest-api-ts.tgz}
     name: '@rush-temp/rest-api-ts'
     version: 0.0.0
     dependencies:
       '@aws-sdk/signature-v4-crt': 3.47.0
       '@babel/core': 7.16.7
+      '@serverless-stack/aws-lambda-ric': 2.0.10
       '@serverless-stack/cli': 0.60.4_904370689b126c490a163bd99279f6a3
       '@serverless-stack/resources': 0.60.4_4759edfa38fba70ea8f27dc9054d15ba
       '@tsconfig/node14': 1.0.1
