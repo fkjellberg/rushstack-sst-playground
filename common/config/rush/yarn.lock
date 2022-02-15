@@ -2695,6 +2695,14 @@
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
+"@serverless-stack/aws-lambda-ric@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/aws-lambda-ric/-/aws-lambda-ric-2.0.12.tgz#f12f31b08013c7744fb48e0e4bbcec4e20b9d47e"
+  integrity sha512-AV8MGoCGCdUC5Z3VAtZrAY8K0GRTQPaTBUNK9EN9FNCGRCry6jSiBwd71fBt9/E+22SDuwPR+ylM78f9M2wemQ==
+  dependencies:
+    node-addon-api "3.2.1"
+    node-gyp "8.1.0"
+
 "@serverless-stack/cli@0.60.4":
   version "0.60.4"
   resolved "https://registry.yarnpkg.com/@serverless-stack/cli/-/cli-0.60.4.tgz#db78ef834f2c42258de5950affb29f8b08eae659"
@@ -2727,6 +2735,55 @@
     esbuild-runner "^2.2.1"
     eslint "^7.16.0"
     eslint-config-serverless-stack "^0.60.4"
+    express "^4.17.1"
+    fast-safe-stringify "^2.0.6"
+    fs-extra "^9.0.1"
+    graphql "^15.5.1"
+    is-root "^2.1.0"
+    jest "^27.3.1"
+    node-fetch "^2.6.1"
+    open "^8.4.0"
+    promise.allsettled "^1.0.2"
+    prompts "^2.4.1"
+    remeda "^0.0.32"
+    source-map-support "^0.5.19"
+    ts-jest "^26.1.4"
+    typescript "^4.4.3"
+    ws "^7.4.0"
+    yargs "^15.4.1"
+
+"@serverless-stack/cli@0.64.0":
+  version "0.64.0"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/cli/-/cli-0.64.0.tgz#84d493bcc0499a2ef22c075f42f3c90805acd675"
+  integrity sha512-0u0qijIugGPBFrIiaHJols1FmNgRU/OSBbhCTk7Qu0FmE52KJp6Jly6yshd9wJe1H3LGtNaPFuCAMzwpxjXa5Q==
+  dependencies:
+    "@aws-cdk/aws-apigatewayv2-alpha" "2.7.0-alpha.0"
+    "@babel/core" "^7.10.5"
+    "@babel/eslint-parser" "^7.11.3"
+    "@babel/eslint-plugin" "^7.11.3"
+    "@babel/plugin-proposal-class-properties" "^7.10.4"
+    "@babel/preset-env" "^7.10.4"
+    "@serverless-stack/aws-lambda-ric" "^2.0.12"
+    "@serverless-stack/core" "^0.64.0"
+    "@serverless-stack/resources" "^0.64.0"
+    "@types/jest" "^27.0.2"
+    "@types/node" "^14.0.27"
+    "@typescript-eslint/eslint-plugin" "^4.15.1"
+    "@typescript-eslint/parser" "^4.15.1"
+    apollo-server-express "^2.25.2"
+    aws-cdk "2.7.0"
+    aws-cdk-lib "2.7.0"
+    aws-sdk "^2.761.0"
+    body-parser "^1.19.0"
+    chalk "^4.1.0"
+    chokidar "^3.4.3"
+    core-js "^3.6.5"
+    cross-spawn "^7.0.3"
+    detect-port-alt "^1.1.6"
+    esbuild "^0.12.20"
+    esbuild-runner "^2.2.1"
+    eslint "^7.16.0"
+    eslint-config-serverless-stack "^0.64.0"
     express "^4.17.1"
     fast-safe-stringify "^2.0.6"
     fs-extra "^9.0.1"
@@ -2785,6 +2842,45 @@
     xstate "^4.26.1"
     zod "^3.11.6"
 
+"@serverless-stack/core@^0.64.0":
+  version "0.64.0"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/core/-/core-0.64.0.tgz#2d41f1c606e7cb5fa466ffc00969900fd97d8782"
+  integrity sha512-U+bHe4uGDY1LRSvTWG4P/xvCjQ3/DKS6qKZfKZjx736T+KZeXZlDmQrcAmfuHL1jpj532Kc72jn+ZmCBb1ZXhA==
+  dependencies:
+    "@aws-sdk/client-s3" "^3.45.0"
+    "@trpc/server" "^9.16.0"
+    "@types/jest" "^26.0.7"
+    "@types/picomatch" "^2.3.0"
+    async-retry "^1.3.3"
+    aws-cdk "2.7.0"
+    aws-cdk-lib "2.7.0"
+    aws-sdk "^2.761.0"
+    chalk "^4.1.0"
+    chokidar "^3.5.2"
+    ci-info "^3.3.0"
+    conf "^10.1.1"
+    constructs "^10.0.29"
+    cross-spawn "^7.0.3"
+    dataloader "^2.0.0"
+    dendriform-immer-patch-optimiser "^2.1.0"
+    dotenv "^10.0.0"
+    dotenv-expand "^5.1.0"
+    esbuild "^0.14.11"
+    express "^4.17.1"
+    fs-extra "^9.0.1"
+    immer "^9.0.7"
+    jest "^26.1.0"
+    js-yaml "^4.1.0"
+    log4js "^6.3.0"
+    picomatch "^2.3.0"
+    remeda "^0.0.32"
+    stun "^2.1.0"
+    ts-jest "^26.1.4"
+    typescript "^4.4.3"
+    uuid "^8.3.2"
+    xstate "4.26.1"
+    zod "^3.11.6"
+
 "@serverless-stack/nextjs-core@^0.1.9":
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@serverless-stack/nextjs-core/-/nextjs-core-0.1.9.tgz#ca480e8081df5d262ed5f61ef44584e130198e17"
@@ -2831,6 +2927,34 @@
     "@graphql-tools/merge" "^6.2.14"
     "@serverless-stack/core" "^0.60.4"
     "@serverless-stack/nextjs-lambda" "^0.1.9"
+    "@types/jest" "^26.0.7"
+    archiver "^5.3.0"
+    aws-cdk-lib "2.7.0"
+    chalk "^4.1.0"
+    constructs "^10.0.29"
+    cross-spawn "^7.0.3"
+    esbuild "^0.12.20"
+    eslint "^7.16.0"
+    fs-extra "^9.0.1"
+    glob "^7.1.7"
+    graphql "^15.5.1"
+    jest "^26.1.0"
+    ts-jest "^26.1.4"
+    typescript "^4.4.3"
+    zip-local "^0.3.4"
+
+"@serverless-stack/resources@0.64.0", "@serverless-stack/resources@^0.64.0":
+  version "0.64.0"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-0.64.0.tgz#7c442adc61c025665a099c880afaada87a35f94b"
+  integrity sha512-63qXtn85rFgpNdRil5z/dPYJeEtbhNUnlFxGMR9aO5cxOTvsXnuxyAPgxcnphjKevyhUkGBEDb+53f5JolTvCw==
+  dependencies:
+    "@aws-cdk/aws-apigatewayv2-alpha" "2.7.0-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-authorizers-alpha" "2.7.0-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.7.0-alpha.0"
+    "@aws-cdk/aws-appsync-alpha" "2.7.0-alpha.0"
+    "@graphql-tools/load-files" "^6.3.2"
+    "@graphql-tools/merge" "^6.2.14"
+    "@serverless-stack/core" "^0.64.0"
     "@types/jest" "^26.0.7"
     archiver "^5.3.0"
     aws-cdk-lib "2.7.0"
@@ -5789,6 +5913,18 @@ eslint-config-serverless-stack@^0.60.4:
   version "0.60.4"
   resolved "https://registry.yarnpkg.com/eslint-config-serverless-stack/-/eslint-config-serverless-stack-0.60.4.tgz#53054e9378f66f3972c386b0226c213764fee8d8"
   integrity sha512-PZPhMFiRPZqX27CJndI8rDKlT7UUIu4lWb0qmuR/mnGqew4rUyoT1jgmFZG3/tM9mYJYy2pZN8YMJYyGo88FwQ==
+  dependencies:
+    "@babel/eslint-parser" "^7.11.3"
+    "@babel/plugin-proposal-class-properties" "^7.10.4"
+    "@babel/preset-env" "^7.10.4"
+    "@typescript-eslint/eslint-plugin" "^4.15.1"
+    "@typescript-eslint/parser" "^4.15.1"
+    eslint "^7.16.0"
+
+eslint-config-serverless-stack@^0.64.0:
+  version "0.64.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-serverless-stack/-/eslint-config-serverless-stack-0.64.0.tgz#34d6cdeeb1fa2097359837c4aca935d088079893"
+  integrity sha512-pymxqh4nHTuBnqCZbcxvXv2j+3LZs4EE80nlWnB56Y4w1+gGWqq2pNzWCU3aYLLbXa2MbEPbWv0SniKvs3LxWQ==
   dependencies:
     "@babel/eslint-parser" "^7.11.3"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
@@ -12114,6 +12250,11 @@ xss@^1.0.8:
   dependencies:
     commander "^2.20.3"
     cssfilter "0.0.10"
+
+xstate@4.26.1:
+  version "4.26.1"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.26.1.tgz#4fc1afd153f88cf302a9ee2b758f6629e6a829b6"
+  integrity sha512-JLofAEnN26l/1vbODgsDa+Phqa61PwDlxWu8+2pK+YbXf+y9pQSDLRvcYH2H1kkeUBA5fGp+xFL/zfE8jNMw4g==
 
 xstate@^4.26.1:
   version "4.28.1"
