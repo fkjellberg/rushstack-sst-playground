@@ -34,11 +34,12 @@ function readPackage(packageJson, context) {
   //  packageJson.dependencies['log4js'] = '0.6.38';
   // }
 
-  if (packageJson.name === '@serverless-stack/cli' || packageJson.name === '@serverless-stack/core' || packageJson.name === '@serverless-stack/resources') {
-    // Workaround for serverless-stack
-    packageJson.dependencies['ts-jest'] = '27.1.0';
-    packageJson.dependencies['jest'] = '27.4.7';
-    packageJson.dependencies['@types/jest'] = '27.4.0';
+  if (packageJson.name === '@serverless-stack/core') {
+    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
+  }
+
+  if (packageJson.name === 'eslint-config-serverless-stack') {
+    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
   }
 
   return packageJson;

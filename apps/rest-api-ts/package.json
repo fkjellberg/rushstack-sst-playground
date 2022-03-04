@@ -16,16 +16,15 @@
     ]
   },
   "devDependencies": {
-    "@serverless-stack/aws-lambda-ric": "2.0.12",
+    "@serverless-stack/aws-lambda-ric": "^2.0.12",
+    "@serverless-stack/cli": "0.67.0",
+    "@serverless-stack/resources": "0.67.0",
     "@tsconfig/node14": "^1.0.1",
     "@types/aws-lambda": "^8.10.70",
-    "@types/node": "<15.0.0"
-  },
-  "dependencies": {
-    "@aws-sdk/signature-v4-crt": "3.47.0",
-    "@serverless-stack/cli": "0.64.0",
-    "@serverless-stack/resources": "0.64.0",
+    "@types/node": "<15.0.0",
     "aws-cdk-lib": "2.7.0",
     "constructs": "10.0.36"
+  },
+  "dependencies": {
   }
 }
