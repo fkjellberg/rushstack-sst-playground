@@ -34,11 +34,11 @@ function readPackage(packageJson, context) {
   //  packageJson.dependencies['log4js'] = '0.6.38';
   // }
 
-  if (packageJson.name === '@serverless-stack/core') {
-    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
+  if (packageJson.name === '@serverless-stack/cli') {
+    packageJson.dependencies['graphql'] = "16.3.0";
   }
 
-  if (packageJson.name === 'eslint-config-serverless-stack') {
+  if (packageJson.name === '@serverless-stack/core') {
     packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
   }
 
