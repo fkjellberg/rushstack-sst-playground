@@ -35,11 +35,12 @@ function readPackage(packageJson, context) {
   // }
 
   if (packageJson.name === '@serverless-stack/cli') {
-    packageJson.dependencies['graphql'] = "16.3.0";
+    packageJson.dependencies['graphql'] = "^15.0.0";
+    packageJson.dependencies['webpack'] = ">= 4";
   }
 
-  if (packageJson.name === '@serverless-stack/core') {
-    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
+  if (packageJson.name === '@serverless-stack/resources') {
+    packageJson.dependencies['graphql'] = "^15.0.0";
   }
 
   return packageJson;
