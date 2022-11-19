@@ -34,14 +34,5 @@ function readPackage(packageJson, context) {
   //  packageJson.dependencies['log4js'] = '0.6.38';
   // }
 
-  if (packageJson.name === '@serverless-stack/cli') {
-    packageJson.dependencies['graphql'] = "^15.0.0";
-    packageJson.dependencies['webpack'] = ">= 4";
-  }
-
-  if (packageJson.name === '@serverless-stack/resources') {
-    packageJson.dependencies['graphql'] = "^15.0.0";
-  }
-
   return packageJson;
 }
